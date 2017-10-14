@@ -8,3 +8,6 @@ GITHUB Doesn't like empty folders. In order for my "foodgo.css" casc. style shee
 I made the index.html file read it by the following line:
  <link rel="stylesheet" type="text/css" href="/foodgo.css">
 This way, the index.html file will look under the doc folder for the css file
+
+similarly, just leave it as a file in the main folder and use:
+<link rel="stylesheet" type="text/css" href="foodgo.css">
